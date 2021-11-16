@@ -26,11 +26,12 @@ const app = {
 }
 
 $(document).ready(function() {
-    $('p:first').mouseover(function() {
-        $(this).addClass('hover');
+    $('.hover_reveal').mouseover(function() {
+        $(this).css('background-color', $(this).data("color"));
     });
-    $('p:first').mouseout(function() {
-        $(this).removeClass('hover');
+    $('.hover_reveal').mouseleave(function() {
+        $(this).css('background-color', "transparent");
+        console.log("hello!")
     });
 });
 
