@@ -1,0 +1,9 @@
+body {
+    background-color: lightgreen;
+}
+
+.hover {
+    background-color: lightcoral;
+    font-weight: bold;
+    font-size: 30px;
+}
